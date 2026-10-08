@@ -1,4 +1,5 @@
 // Implement cartTotal here. See README.md for the specification.
+//test checking
 export function cartTotal(items, options) {
   if (!Array.isArray(items) || items.length === 0) return 0
   const hasNumber = items.some(
